@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:todoapp/dashboard.dart';
+
 import 'package:todoapp/screens/homescreen.dart';
 
 class RegisterScreen extends StatelessWidget {
@@ -141,11 +141,11 @@ class RegisterScreen extends StatelessWidget {
                         MaterialPageRoute(
                           builder: (context) => const HomeScreen(),
                         ));
-                    Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                          builder: (context) => Dashboard(),
-                        ));
+                    // Navigator.push(
+                    //     context,
+                    //     MaterialPageRoute(
+                    //       builder: (context) => Dashboard(),
+                    //     ));
                   },
                   color: const Color(0xff0095FF),
                   elevation: 0,
